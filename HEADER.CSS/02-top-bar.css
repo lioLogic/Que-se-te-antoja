@@ -1,8 +1,13 @@
 .top-bar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
-    padding: 1rem;
-    background-color: rgb(212, 142, 57);
+    gap: 1rem;
+    padding: 1.5rem;
+    background: linear-gradient(to top, rgba(98, 97, 97, 0.061), rgba(0, 0, 0, 0.821));
 }
+
+.btn-burger span {
+    color: var(--blanco);
+}
+

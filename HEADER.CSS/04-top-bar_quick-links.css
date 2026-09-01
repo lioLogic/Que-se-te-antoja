@@ -1,0 +1,9 @@
+.top-bar__quick-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+

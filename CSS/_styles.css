@@ -1,0 +1,38 @@
+/* ==========================================
+   VARIABLES
+========================================== */
+@import url("./_variables.css");
+
+/* ==========================================
+   BASE
+========================================== */
+@import url("./_reset.css");
+@import url("./seccion-titulos.css");
+
+/* ==========================================
+   LAYOUT
+========================================== */
+@import url("../HEADER.CSS/01-header.css");
+@import url("../LAYOUT.CSS/10-main-layout.css");
+@import url("../FOOTER.CSS/11-footer.css");
+
+/* ==========================================
+   COMPONENTES
+========================================== */
+@import url("../HEADER.CSS/02-top-bar.css");
+@import url("../HEADER.CSS/03-top-bar-navigation.css");
+@import url("../HEADER.CSS/04-top-bar_quick-links.css");
+@import url("../HEADER.CSS/05-items_title-header.css");
+@import url("../HEADER.CSS/06-caja_atajos_navegation.css");
+@import url("../HEADER.CSS/07-hero.css");
+@import url("../LAYOUT.CSS/08-contenedor-categorias.css");
+@import url("../LAYOUT.CSS/09-tarjetas-productos.css");
+@import url("../LAYOUT.CSS/botones-categorias.css");
+
+
+
+/* ==========================================
+   UTILIDADES
+========================================== */
+@import url("../LAYOUT.CSS/animaciones-contenedor_categorias.css");
+@import url("../FOOTER.CSS/boton-whatsapp.css");

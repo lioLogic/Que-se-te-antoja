@@ -1,0 +1,75 @@
+:root {
+    /* COLORES PARA LOS TEXTOS DE LA WEB */
+    --blanco: white;
+    --gris: grey;
+}
+
+:root {
+    /* FUENTES PARA LOS TEXTOS DE LA WEB */
+    --font-display: "Montserrat Alternates", sans-serif;
+    --font-h1: "Bebas Neue", sans-serif;
+    --font-span: "Inter", sans-serif;
+   
+}
+
+:root {
+    /* pantallas de referencia */
+    --pantalla-min: 320;
+    --pantalla-max: 1450;
+    /* tamaños de fuentes en píxeles */
+    --font-min: 16;
+    --font-max: 22;
+    /* fórmula matemática automatizada */
+    --fluid-slope: calc((var(--font-max) - var(--font-min)) / (var(--pantalla-max) - var(--pantalla-min)));
+    --fluid-intercept: calc(var(--font-min) - var(--fluid-slope) * var(--pantalla-min));
+    /* resultado final */
+    --fuente-dinamica: clamp(calc(var(--font-min) * 1rem / 16),
+            calc((var(--fluid-intercept) * 1rem / 16) + (var(--fluid-slope) * 100vw)),
+            calc(var(--font-max) * 1rem / 16));
+
+    /* TAMAÑOS PARA ETIQUETAS h1 */
+    --pantalla-min: 320;
+    --pantalla-max: 1450;
+    /* tamaños de fuentes en píxeles */
+    --font-min-h1: 48;
+    --font-max-h1: 152;
+    /* fórmula matemática automatizada */
+    --fluid-slope-h1: calc((var(--font-max-h1) - var(--font-min-h1)) / (var(--pantalla-max) - var(--pantalla-min)));
+    --fluid-intercept-h1: calc(var(--font-min-h1) - var(--fluid-slope-h1) * var(--pantalla-min));
+    /* resultado final */
+    --fuente-dinamica-h1: clamp(calc(var(--font-min-h1) * 1rem / 16),
+            calc((var(--fluid-intercept-h1) * 1rem / 16) + (var(--fluid-slope-h1) * 100vw)),
+            calc(var(--font-max-h1) * 1rem / 16));
+}
+
+:root {
+    /* TAMAÑOS PARA ETIQUETAS H2 */
+    --pantalla-min: 320;
+    --pantalla-max: 1450;
+    /* tamaños de fuentes en píxeles */
+    --font-min-h2: 32;
+    --font-max-h2: 64;
+    /* fórmula matemática automatizada */
+    --fluid-slope-h2: calc((var(--font-max-h2) - var(--font-min-h2)) / (var(--pantalla-max) - var(--pantalla-min)));
+    --fluid-intercept-h2: calc(var(--font-min-h2) - var(--fluid-slope-h2) * var(--pantalla-min));
+    /* resultado final */
+    --fuente-dinamica-h2: clamp(calc(var(--font-min-h2) * 1rem / 16),
+            calc((var(--fluid-intercept-h2) * 1rem / 16) + (var(--fluid-slope-h2) * 100vw)),
+            calc(var(--font-max-h2) * 1rem / 16));
+}
+
+:root {
+    /* TAMAÑOS PARA ETIQUETAS <a> */
+    --pantalla-min: 320;
+    --pantalla-max: 1450;
+    /* tamaños de fuentes en píxeles */
+    --font-min-a_top-navegation: 19;
+    --font-max-a_top-navegation: 32;
+    /* fórmula matemática automatizada */
+    --fluid-slope-a_top-navegation: calc((var(--font-max-a_top-navegation) - var(--font-min-a_top-navegation)) / (var(--pantalla-max) - var(--pantalla-min)));
+    --fluid-intercept-a_top-navegation: calc(var(--font-min-a_top-navegation) - var(--fluid-slope-a_top-navegation) * var(--pantalla-min));
+    /* resultado final */
+    --fuente-dinamica-a_top-navegation: clamp(calc(var(--font-min-a_top-navegation) * 1rem / 16),
+            calc((var(--fluid-intercept-a_top-navegation) * 1rem / 16) + (var(--fluid-slope-a_top-navegation) * 100vw)),
+            calc(var(--font-max) * 1rem / 16));
+}

@@ -1,0 +1,56 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 3rem 1.5rem 0;
+    max-width: 1250px;
+    width: 100%;
+    height: clamp(25rem, 24dvh, 30rem);
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 7, 7, 0.744);
+    /* Capa negra al 50% de opacidad */
+    z-index: 2;
+}
+
+.hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    gap: 1.5rem;
+    z-index: 5;
+    background-color: rgba(240, 248, 255, 0.064);
+}
+
+.logo-web {
+    width: 100px;
+    border-radius: 50%;
+}
+

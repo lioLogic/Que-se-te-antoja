@@ -1,0 +1,10 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1450px;
+    background: linear-gradient(to bottom, rgba(24, 24, 24, 0.832), rgba(19, 19, 19, 0.733));
+    padding-top: 2rem;
+    border-top: 1rem solid rgba(252, 252, 252, 0.404);
+}

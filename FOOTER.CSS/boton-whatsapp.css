@@ -1,0 +1,28 @@
+/* Contenedor del botón en la esquina inferior izquierda */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;          /* Distancia desde abajo */
+  left: 20px;            /* Distancia desde la izquierda */
+  width: 55px;           /* Ancho del botón */
+  height: 55px;          /* Alto del botón */
+  background-color: #25D366; /* Verde oficial de WhatsApp */
+  border-radius: 50%;    /* Lo hace completamente redondo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Sombra para darle profundidad */
+  z-index: 9999;         /* Se asegura de quedar por encima de todo el contenido */
+  transition: transform 0.3s ease; /* Suaviza el efecto al pasar el mouse */
+}
+
+/* Efecto al pasar el cursor por encima (Hover) */
+.whatsapp-btn:hover {
+  transform: scale(1.1); /* Agranda el botón un 10% */
+}
+
+/* Ajuste del icono SVG por dentro */
+.whatsapp-btn svg {
+  width: 60%;            /* Tamaño del logo dentro del círculo */
+  height: 60%;
+  fill: #fff;            /* Cambia el logo a color blanco */
+}

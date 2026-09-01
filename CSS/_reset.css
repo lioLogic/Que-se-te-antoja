@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    background-color: rgb(19, 19, 19);
+}
+
+img,
+picture,
+svg,
+video,
+canvas {
+    display: block;
+    max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+button {
+    background: inherit;
+    border: inherit;
+    cursor: pointer;
+}
+
+button:focus-visible {
+    outline: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-family: var(--font-display);
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1 {
+    font-family: var(--font-h1);
+    font-size: var(--fuente-dinamica-h1);
+}
+
+h2 {
+    font-family: var(--font-h1);
+    font-size: var(--fuente-dinamica-h2);
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}

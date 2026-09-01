@@ -1,0 +1,16 @@
+.atajos-navegation {
+    display: flex;
+    padding: 1rem;
+}
+
+.caja-atajos-navegation {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.caja-atajos-navegation li {
+    font-family: var(--font-header);
+    font-size: var(--fuente-dinamica-a_top-navegation);
+    padding: 5px 10px;
+}

@@ -1,0 +1,14 @@
+.top-bar_navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icon {
+    font-size: 2.5rem;
+    color: var(--color-principal);
+}
+
+.barra-lateral {
+    display: none;
+}
