@@ -2,10 +2,10 @@
 .whatsapp-btn {
   position: fixed;
   bottom: 20px;          /* Distancia desde abajo */
-  left: 20px;            /* Distancia desde la izquierda */
-  width: 55px;           /* Ancho del botón */
-  height: 55px;          /* Alto del botón */
-  background-color: #25D366; /* Verde oficial de WhatsApp */
+  right: 20px;            /* Distancia desde la izquierda */
+  width: 80px;           /* Ancho del botón */
+  height: 65px;          /* Alto del botón */
+  background-color: #0f3007; /* Verde oficial de WhatsApp */
   border-radius: 50%;    /* Lo hace completamente redondo */
   display: flex;
   align-items: center;
@@ -22,7 +22,7 @@
 
 /* Ajuste del icono SVG por dentro */
 .whatsapp-btn svg {
-  width: 60%;            /* Tamaño del logo dentro del círculo */
+  width: 80%;            /* Tamaño del logo dentro del círculo */
   height: 60%;
   fill: #fff;            /* Cambia el logo a color blanco */
 }

@@ -6,7 +6,7 @@
 
 .viewport-categoria.abierto {
     display: flex;
-    animation: viewportAbierto 600ms ease-out forwards;
+    animation: viewportAbierto 400ms ease-out forwards;
 }
 
 @keyframes viewportAbierto {
@@ -22,7 +22,7 @@
 
 .viewport-categoria.cerrando {
     display: flex;
-    animation: viewportCerrando 600ms ease-out forwards;
+    animation: viewportCerrando 400ms ease-out forwards;
 }
 
 @keyframes viewportCerrando {

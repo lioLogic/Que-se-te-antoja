@@ -1,20 +1,20 @@
 console.log("CONTENEDOR CATEGORIAS");
 
 const categorias = [
-    "pizzas",
-    "empanadas",
-    "bebidas",
-    "promos"
+    "hamburguesas",
+    "sandwiches",
+    "platos",
+    "snacks"
 ];
 
 const portadasCartegorias = {
-    pizzas: "images/fondo-pizzas.webp",
+    hamburguesas: "images/fondo-pizzas.webp",
 
-    empanadas: "images/fondo-empanadas.webp",
+    sandwiches: "images/fondo-empanadas.webp",
 
-    bebidas: "images/fondo-bebidas.webp",
+    platos: "images/fondo-bebidas.webp",
 
-    promos: "images/fondo-promos.webp"
+    snacks: "images/fondo-promos.webp"
 };
 
 

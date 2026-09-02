@@ -1,8 +1,8 @@
 const mapeoCategorias = {
-    'boton-pizzas': 'viewport-pizzas',
-    'boton-empanadas': 'viewport-empanadas',
-    'boton-bebidas': 'viewport-bebidas',
-    'boton-promos': 'viewport-promos'
+    'boton-hamburguesas': 'viewport-hamburguesas',
+    'boton-sandwiches': 'viewport-sandwiches',
+    'boton-platos': 'viewport-platos',
+    'boton-snacks': 'viewport-snacks'
 };
 
 function animarViewport() {

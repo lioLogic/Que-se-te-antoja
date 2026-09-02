@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    padding: 3rem 1.5rem 0;
+    padding: 3rem;
     max-width: 1250px;
     width: 100%;
     height: clamp(25rem, 24dvh, 30rem);

@@ -3,7 +3,7 @@
     font-size: var(--fuente-dinamica-a_top-navegation);
 }
 
-.hero h2 {
+.hero h2, p {
     color: aliceblue; 
 }
 
