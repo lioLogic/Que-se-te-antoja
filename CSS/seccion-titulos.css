@@ -8,13 +8,18 @@
 }
 
 .title-menu {
-    color: rgb(193, 192, 192);
+    color: rgb(230, 227, 227);
     text-align: center;
     align-self: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .article-producto h3, p,
 .boton-pedir {
     font-family: var(--font-display);
 } 
+
+.caja-horarios,
+.caja-ubicacion h3 {
+    font-family: var(--font-h1);
+}

@@ -1,0 +1,10 @@
+.footer-brand {
+    gap: 1rem;
+}
+
+.boton-pedido-footer {
+    background-color: rgba(217, 127, 43, 0.852);
+    border: 1px solid rgba(131, 124, 126, 0.852);
+    border-radius: 1.3rem;
+    padding: 1rem;
+}

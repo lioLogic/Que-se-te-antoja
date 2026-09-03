@@ -1,0 +1,17 @@
+.creditos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    background-color: rgba(21, 20, 20, 0.284);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 1rem;
+}
+
+.creditos address {
+    font-size: 10px;
+    text-align: left;
+}

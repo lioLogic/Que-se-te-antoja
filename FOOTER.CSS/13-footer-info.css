@@ -1,0 +1,7 @@
+.footer-info {
+    gap: 1rem;
+}
+.caja-horarios,
+.caja-ubicacion {
+    gap: 0.5rem;
+}
