@@ -5,16 +5,21 @@ function renderTarjetas(categoria) {
     contenedor.className = "viewport-categoria cerrado";
     contenedor.id = `viewport-${categoria}`;
     const productos = productosArray[categoria];
-    
+
     productos.forEach(producto => {
         const divArticle = document.createElement("div");
         divArticle.className = "div-article-boton";
         const article = crearArticles(producto);
+        const divPedido = document.createElement("div");
+        divPedido.className = "caja-pedido";
         const botonPedir = crearBotonPedido(producto);
+        const spanPrecio = crearSpanPrecio(producto);
 
-        divArticle.append(article, botonPedir);
+        divPedido.append(botonPedir, spanPrecio);
+        divArticle.append(article, divPedido);
         contenedor.appendChild(divArticle);
     });
+
     return contenedor;
 }
 
@@ -50,4 +55,13 @@ function crearBotonPedido(producto) {
     botonPedir.textContent = "Hacer pedido";
 
     return botonPedir;
+}
+
+function crearSpanPrecio(producto) {
+    const spanPrecio = document.createElement("span");
+    spanPrecio.className = "span-precio";
+    spanPrecio.id = `span-precio-${producto}`;
+    spanPrecio.textContent = `$${producto.precio.toLocaleString('es-ES')}`;
+
+    return spanPrecio;
 }
