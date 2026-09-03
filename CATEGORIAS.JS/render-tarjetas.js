@@ -12,7 +12,7 @@ function renderTarjetas(categoria) {
         const article = crearArticles(producto);
         const divPedido = document.createElement("div");
         divPedido.className = "caja-pedido";
-        const botonPedir = crearBotonPedido(producto);
+        const botonPedir = crearBotonPedido(producto, categoria);
         const spanPrecio = crearSpanPrecio(producto);
 
         divPedido.append(botonPedir, spanPrecio);
@@ -48,9 +48,9 @@ function crearArticles(producto) {
     return articleProducto;
 }
 
-function crearBotonPedido(producto) {
-    const botonPedir = document.createElement("button");
-    botonPedir.type = "button";
+function crearBotonPedido(producto, categoria) {
+    const botonPedir = document.createElement("a");
+    botonPedir.href = crearMensajePedido(negocio, categoria, producto);
     botonPedir.className = "boton-pedir";
     botonPedir.textContent = "Hacer pedido";
 

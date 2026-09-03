@@ -1,13 +1,13 @@
 .top-bar {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 100px;
     width: 100%;
     gap: 1rem;
     padding: 1.5rem;
     background: linear-gradient(to top, rgba(98, 97, 97, 0.061), rgba(0, 0, 0, 0.821));
 }
 
-.btn-burger span {
-    color: var(--blanco);
+.btn-menu {
+    font-size: 1.5rem;
 }
 

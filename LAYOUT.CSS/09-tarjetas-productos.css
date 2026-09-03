@@ -52,8 +52,8 @@
     font-family: var(--font-span);
     font-size: var(--fuente-dinamica);
     background-color: rgba(61, 61, 61, 0.483);
-    padding: 4px;
+    padding: 5px;
     padding-left: 6px;
     padding-right: 6px;
-    border-radius: 80%;
+    border-radius: 1rem;
 }

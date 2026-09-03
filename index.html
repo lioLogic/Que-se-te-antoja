@@ -30,6 +30,7 @@
     <!-- JavaScript -->
     <script src="JS/datos-negocio.js" defer></script>
     <script src="JS/array-productos.js" defer></script>
+    <script src="JS/mensaje-pedido-productos.js" defer></script>
     <script src="CATEGORIAS.JS/render-tarjetas.js" defer></script>
     <script src="CATEGORIAS.JS/render-categorias.js" defer></script>
     <script src="CATEGORIAS.JS/animaciones.js" defer></script>
@@ -40,13 +41,13 @@
     <div class="page">
         <header class="site-header">
             <section class="header-banner">
-                <img src="images/fondo-header.webp"
-                    alt="" class="banner" fetchpriority="high">
+                <img src="images/fondo-header.webp" alt="" class="banner" fetchpriority="high">
                 <div class="banner-content">
                     <section class="top-bar">
+                        <a href="#contenedor_categorias" class="btn-menu">Menú</a>
                         <div class="top-bar__quick-links">
-                            <a href="#ubicación">Ubicación</a>
-                            <a href="#horarios">Horarios</a>
+                            <a href="#ubicacion"><span class="material-symbols-outlined">location_on</span></a>
+                            <a href="#horarios"><span class="material-symbols-outlined">schedule </span></a>
                         </div>
                     </section>
                     <section class="items_title-header">
@@ -77,8 +78,7 @@
                     <source src="videos/hero que se te antoja.mp4" type="video/mp4">
                 </video>
                 <div class="hero-content">
-                    <img src="images/QSTA logo.webp"
-                        alt="" class="logo-web">
+                    <img src="images/QSTA logo.webp" alt="" class="logo-web">
                     <h2 class="local-name"></h2>
                     <p class="hero-desc"></p>
                 </div>
@@ -95,11 +95,11 @@
                 <a href="">Hace tu pedido</a>
             </div>
             <div class="footer-info">
-                <div class="caja-horarios">
+                <div class="caja-horarios" id="horarios">
                     <h3>Horarios</h3>
                     <p>Lunes - Domingos: 20:00 - 00:00 a.m</p>
                 </div>
-                <div class="caja-ubicacion">
+                <div class="caja-ubicacion" id="ubicacion">
                     <h3>Ubicación</h3>
                     <p>Belgrano - Corrientes</p>
                 </div>
