@@ -1,0 +1,18 @@
+/* REDES */
+.redes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+
+.boton-instagram {
+    display: flex;
+    width: 100px;
+    gap: 1rem;
+}
+
+.logo-instagram {
+    display: block;
+    width: 30px;
+}

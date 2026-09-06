@@ -1,0 +1,44 @@
+@media (min-width: 1024px) {
+
+    /* titulo de la web */
+    .items_title-header {
+        width: 60%;
+    }
+
+    /* HERO */
+    .hero {
+        height: 35rem;
+        border-bottom-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+    }
+
+    /* LAYOUT */
+    .title-menu {
+        font-size: 2rem;
+    }
+
+    .contenedor-categorias {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .title-categoria {
+        font-size: 2rem;
+    }
+
+    /* FOOTER GRID */
+    .grid-columnas-footer {
+        display: grid;
+        grid-template-columns: 1fr 400px;
+        width: 100%;
+    }
+
+    .column-left,
+    .column-right {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+        padding: 2rem;
+    }
+}

@@ -30,7 +30,10 @@
 
 @import url("../FOOTER.CSS/12-footer-brand.css");
 @import url("../FOOTER.CSS/13-footer-info.css");
-@import url("../FOOTER.CSS/14-footer-creditos.css");
+@import url("../FOOTER.CSS/14-redes.css");
+@import url("../FOOTER.CSS/15-footer-creditos.css");
+@import url("../FOOTER.CSS/columnas-grid-footer.css");
+
 
 
 
@@ -39,3 +42,4 @@
 ========================================== */
 @import url("../LAYOUT.CSS/animaciones-contenedor_categorias.css");
 @import url("../FOOTER.CSS/boton-whatsapp.css");
+@import url("../CSS/_responsive.css");

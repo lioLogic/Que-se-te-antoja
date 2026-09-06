@@ -1,0 +1,12 @@
+.grid-columnas-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.column-left,
+.column-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

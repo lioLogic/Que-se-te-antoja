@@ -177,57 +177,57 @@ const productosArray = {
         {
             nombre: "Emapanda de carne",
             descripcion: "Carne cortada a cuchillo.",
-            imagen: "images/snacks/snack svg.webp",
+            imagen: "images/snacks/empanada svg.webp",
             precio: 2500
         },
         {
             nombre: "Emapandas de carne / Media Docena",
             descripcion: "Carne cortada a cuchillo.",
-            imagen: "images/snacks/snack svg.webp",
+            imagen: "images/snacks/empanada svg.webp",
             precio: 13000
         },
         {
             nombre: "Emapandas de carne / La Docena",
             descripcion: "Carne cortada a cuchillo.",
-            imagen: "images/snacks/snack svg.webp",
+            imagen: "images/snacks/empanada svg.webp",
             precio: 24000
         },
         // EMPANADAS DE JAMÓN Y QUESO //
         {
             nombre: "Empanada de J y Q",
             descripcion: "LLeva relleno de jamón y queso.",
-            imagen: "images/snacks/snack svg.webp",
+            imagen: "images/snacks/empanada svg.webp",
             precio: 2500
         },
         {
             nombre: "Empanadas de J y Q / Media Docena",
             descripcion: "LLeva relleno de jamón y queso.",
-            imagen: "images/snacks/snack svg.webp",
+            imagen: "images/snacks/empanada svg.webp",
             precio: 13000
         },
         {
             nombre: "Empanadas de J y Q / La Docena",
             descripcion: "LLeva relleno de jamón y queso.",
-            imagen: "images/snacks/snack svg.webp",
+            imagen: "images/snacks/empanada svg.webp",
             precio: 24000
         },
         // EMPANDAS DE POLLO //
         {
             nombre: "Empanada de pollo",
             descripcion: "Lleva relleno de pollo.",
-            imagen: "images/snacks/snack svg.webp",
+            imagen: "images/snacks/empanada svg.webp",
             precio: 2500
         },
         {
             nombre: "Empanadas de pollo / Media Docena ",
             descripcion: "LLeva relleno de pollo.",
-            imagen: "images/snacks/snack svg.webp",
+            imagen: "images/snacks/empanada svg.webp",
             precio: 13000
         },
         {
             nombre: "Empanadas de pollo / La Docena",
             descripcion: "Lleva relleno de pollo.",
-            imagen: "images/snacks/snack svg.webp",
+            imagen: "images/snacks/empanada svg.webp",
             precio: 24000
         },
         // TEQUEÑOS //
