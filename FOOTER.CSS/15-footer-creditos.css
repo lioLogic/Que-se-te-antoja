@@ -12,6 +12,11 @@
 }
 
 .creditos address {
+    font-family: var(--font-creditos);
     font-size: 10px;
     text-align: left;
+}
+
+.creditos p {
+    font-family: var(--font-creditos);
 }

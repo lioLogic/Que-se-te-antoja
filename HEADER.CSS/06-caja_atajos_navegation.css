@@ -9,8 +9,9 @@
     gap: 1.5rem;
 }
 
-.caja-atajos-navegation li {
-    font-family: var(--font-header);
-    font-size: var(--fuente-dinamica-a_top-navegation);
+.scroll-categorias {
+    font-family: var(--font-display);
+    font-size: 1.3rem;
     padding: 5px 10px;
+    color: var(--blanco);
 }

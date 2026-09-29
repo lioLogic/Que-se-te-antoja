@@ -66,6 +66,10 @@ h2 {
     font-size: var(--fuente-dinamica-h2);
 }
 
+p {
+    font-size: var(--fuente-dinamica);
+}
+
 .page {
     display: flex;
     flex-direction: column;

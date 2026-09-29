@@ -9,12 +9,10 @@
     <meta name="description" content="">
     <meta name="author" content="Lionel Florentin">
 
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Carter+One&family=Climate+Crisis:YEAR@1979&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Fjalla+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kavoon&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Parisienne&family=Patua+One&family=Smooch&family=Story+Script&family=Style+Script&display=swap"
         rel="stylesheet">
 
 
@@ -33,6 +31,7 @@
     <script src="JS/mensaje-pedido-productos.js" defer></script>
     <script src="CATEGORIAS.JS/render-tarjetas.js" defer></script>
     <script src="CATEGORIAS.JS/render-categorias.js" defer></script>
+    <script src="CATEGORIAS.JS/atajos-navegation.js" defer></script>
     <script src="CATEGORIAS.JS/animaciones.js" defer></script>
 
 </head>
@@ -45,7 +44,7 @@
                     alt="" class="banner" fetchpriority="high">
                 <div class="banner-content">
                     <section class="top-bar">
-                        <a href="#contenedor_categorias" class="btn-menu">Menú</a>
+                        <a href="#title_menu" class="btn-menu"><span class="material-symbols-outlined">menu_book_2</span></a>
                         <div class="top-bar__quick-links">
                             <a href="#ubicacion"><span class="material-symbols-outlined">location_on</span></a>
                             <a href="#horarios"><span class="material-symbols-outlined">schedule </span></a>
@@ -57,16 +56,18 @@
                     <section class="atajos-navegation">
                         <ul class="caja-atajos-navegation">
                             <li>
-                                <a href="#categoria_hamburguesas">Ver Hamburguesas</a>
+                                <button type="button" class="scroll-categorias" id="scroll_hamburguesas">Ver
+                                    Hamburguesas</button>
                             </li>
                             <li>
-                                <a href="#categoria_sandwiches">Ver Sandwiches</a>
+                                <button type="button" class="scroll-categorias" id="scroll_sandwiches">Ver
+                                    Sandwiches</button>
                             </li>
                             <li>
-                                <a href="#categoria_platos">Ver Platos</a>
+                                <button type="button" class="scroll-categorias" id="scroll_platos">Ver Platos</button>
                             </li>
                             <li>
-                                <a href="#categoria_snacks">Ver Snacks</a>
+                                <button type="button" class="scroll-categorias" id="scroll_snacks">Ver Snacks</button>
                             </li>
                         </ul>
                     </section>
@@ -84,7 +85,7 @@
             </section>
         </header>
         <main class="layout">
-            <h2 class="title-menu">Menú</h2>
+            <h2 class="title-menu" id="title_menu">Menú</h2>
             <section class="contenedor-categorias" id="contenedor_categorias"></section>
         </main>
         <section class="site-footer">
@@ -112,7 +113,8 @@
                     <div class="redes">
                         <h3>Nuestro Instagram</h3>
                         <a href="https://www.instagram.com/queseteantoja.budge/" class="boton-instagram">
-                            <img src="images/iconos/Instagram_Glyph_White.png" class="logo-instagram" alt="Logo de Instagram">
+                            <img src="images/iconos/Instagram_Glyph_White.png" class="logo-instagram"
+                                alt="Logo de Instagram">
                             <p>➡</p>
                         </a>
                     </div>

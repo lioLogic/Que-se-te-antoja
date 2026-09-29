@@ -6,6 +6,9 @@
     max-width: 1450px;
     background: linear-gradient(to bottom, rgba(24, 24, 24, 0.832), rgba(19, 19, 19, 0.733));
     padding-top: 2rem;
+    padding-bottom: 2rem;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
+    border-top: 1rem solid rgba(177, 114, 31, 0.864);
+    
 }

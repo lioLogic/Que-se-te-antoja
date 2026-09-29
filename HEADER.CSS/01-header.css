@@ -12,7 +12,7 @@
     min-height: 350px;
     /* La altura que necesite tu diseño */
     overflow: hidden;
-    border-bottom: 1rem solid rgba(60, 59, 58, 0.731);
+    border-bottom: 2px solid rgba(82, 50, 18, 0.731);
 }
 
 .header-banner img.banner {

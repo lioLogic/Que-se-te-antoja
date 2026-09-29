@@ -6,10 +6,10 @@
 
 :root {
     /* FUENTES PARA LOS TEXTOS DE LA WEB */
-    --font-display: "Montserrat Alternates", sans-serif;
-    --font-h1: "Josefin Sans", sans-serif;
-    --font-span: "Inter", sans-serif;
-   
+    --font-display: "Carter One", system-ui;
+    --font-h1: "Story Script", sans-serif;
+    --font-span: "Story Script", sans-serif;
+    --font-creditos: "Special Gothic", sans-serif;
 }
 
 :root {
