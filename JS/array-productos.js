@@ -8,26 +8,26 @@ const productosArray = {
         },
         {
             nombre: "Antojo doble",
-            descripcion: "Doble carne con cheddar.",
-            imagen: "images/burgers/burger svg.webp",
+            descripcion: "Doble carne con cheddar. Acompañado de papas fritas.",
+            imagen: "images/burgers/antojo doble.webp",
             precio: 13000
         },
         {
             nombre: "Antojo triple",
-            descripcion: "Triple carne con cheddar.",
-            imagen: "images/burgers/burger svg.webp",
+            descripcion: "Lleva triple carne, queso cheddar. Acompañado de papas fritas.",
+            imagen: "images/burgers/antojo triple.webp",
             precio: 14000
         },
         {
             nombre: "Antojo bacon",
-            descripcion: "Doble, con queso y bacon.",
-            imagen: "images/burgers/burger svg.webp",
+            descripcion: "Lleva doble carne, cheddar y bacon. Acompañado de papas fritas.",
+            imagen: "images/burgers/antojo bacon.webp",
             precio: 14000
         },
         {
             nombre: "Antojo mortal",
-            descripcion: "Triple carne, triple cheddar y bacon.",
-            imagen: "images/burgers/burger svg.webp",
+            descripcion: "Lleva triple de carne y cheddar con bacon. Acompañado de papas fritas.",
+            imagen: "images/burgers/antojo mortal.webp",
             precio: 16000
         },
         {
@@ -44,8 +44,8 @@ const productosArray = {
         },
         {
             nombre: "La Bajonera",
-            descripcion: "Doble carne, cheddar, bacon, jamón y huevo.",
-            imagen: "images/burgers/burger svg.webp",
+            descripcion: "Lleva doble carne, cheddar, bacon, jamón y huevo. Acompañado de papas fritas.",
+            imagen: "images/burgers/bajonera.webp",
             precio: 16000
         }
     ],
@@ -77,14 +77,26 @@ const productosArray = {
         },
         {
             nombre: "Completísimo",
-            descripcion: "LLeva jamón, queso, lechuga, tomate y huevo.",
-            imagen: "images/sandwiches/sandwich svg.webp",
+            descripcion: "LLeva milanesa, jamón, queso, lechuga, tomate y huevo. Acompañado de papas fritas.",
+            imagen: "images/sandwiches/sandiwch de mila completo.webp",
             precio: 17000
         },
         {
             nombre: "Napolitano",
             descripcion: "Lleva jamón, queso y salsa.",
-            imagen: "images/sandwiches/sandwich svg.webp",
+            imagen: "images/sandwiches/sandwich napolitano.webp",
+            precio: 17000
+        },
+        {
+            nombre: "Sandwich de bondiola completo",
+            descripcion: "Lleva bondiola, jamón, queso, tomate, lechuga y huevo. Acompañado de papas fritas.",
+            imagen: "images/sandwiches/sandwich bondiola completo.webp",
+            precio: 17000
+        },
+        {
+            nombre: "Sandwich de bondiola L y T",
+            descripcion: "Lleva bondiola, lechuga y tomate. Acompañado de papas fritas.",
+            imagen: "images/sandwiches/sandwich bondiola l y t.webp",
             precio: 17000
         }
     ],
@@ -92,7 +104,7 @@ const productosArray = {
     platos: [
         {
             nombre: "Pastel de papas",
-            descripcion: "Con carne cortada a cuchillo, buena cantidad de queso y acompañado con pan.",
+            descripcion: "Con carne cortada a cuchillo y buena cantidad de queso. Incluye pan.",
             imagen: "images/platos/plato svg.webp",
             precio: 13000
         },
@@ -104,8 +116,8 @@ const productosArray = {
         },
         {
             nombre: "Tortilla de papa Rellena",
-            descripcion: "Rellena de  ¡Una combinación irresistible!",
-            imagen: "images/platos/plato svg.webp",
+            descripcion: "Lleva relleno de jamón y queso.",
+            imagen: "images/platos/tortilla rellena.webp",
             precio: 15000
         },
         // PLATOS DE PASTAS //
@@ -141,9 +153,9 @@ const productosArray = {
             precio: 13000
         },
         {
-            nombre: "Mila al plato Napo",
-            descripcion: "LLeva salsa, queso, tomate.",
-            imagen: "images/platos/plato svg.webp",
+            nombre: "Milanesa Napolitana",
+            descripcion: "LLeva salsa, queso y tomate. Acompañado de papas fritas.",
+            imagen: "images/platos/milanesa napolitana.webp",
             precio: 15000
         },
         {
@@ -154,14 +166,14 @@ const productosArray = {
         },
         {
             nombre: "Mila al plato Especial",
-            descripcion: "LLeva cheddar, bacón y verdeo.",
-            imagen: "images/platos/plato svg.webp",
+            descripcion: "Milanesa con cheddar, bacon y verdeo.",
+            imagen: "images/platos/milanesa especial.webp",
             precio: 16000
         },
         {
             nombre: "Mila De La Casa",
-            descripcion: "LLeva jamón, muzza, cheddar y bacón.",
-            imagen: "images/platos/plato svg.webp",
+            descripcion: "LLeva jamón, queso, cheddar y bacón. Acompañado de papas fritas.",
+            imagen: "images/platos/milanesa de la casa.webp",
             precio: 17000
         },
         {
@@ -235,6 +247,12 @@ const productosArray = {
             nombre: "Tequeños",
             descripcion: "6 unidades acompañadas de papas fritas y 2 dips",
             imagen: "images/snacks/snack svg.webp",
+            precio: 13000
+        },
+        {
+            nombre: "Papas fritas completas",
+            descripcion: "Papas con cheddar, bacon y verdero.",
+            imagen: "images/snacks/papasfritas completas.webp",
             precio: 13000
         },
     ]
