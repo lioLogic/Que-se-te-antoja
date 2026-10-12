@@ -120,25 +120,7 @@ const productosArray = {
             imagen: "images/platos/tortilla rellena.webp",
             precio: 15000
         },
-        // PLATOS DE PASTAS //
-        {
-            nombre: "Tallarines al huevo",
-            descripcion: "LLeva estofado. Incluye pan y queso.",
-            imagen: "images/platos/plato svg.webp",
-            precio: 13000
-        },
-        {
-            nombre: "Ñoquis",
-            descripcion: "LLeva estofado. Incluye pan y queso.",
-            imagen: "images/platos/plato svg.webp",
-            precio: 13000
-        },
-        {
-            nombre: "Ravioles de J y Q",
-            descripcion: "LLeva estofado. Incluye pan y queso.",
-            imagen: "images/platos/plato svg.webp",
-            precio: 13000
-        },
+        // ENSALADAS //
         // MILANESAS AL PLATO //
         {
             nombre: "Mila al plato",
